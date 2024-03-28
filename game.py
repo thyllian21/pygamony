@@ -7,7 +7,7 @@ class Game:
     def __init__(self):
         # creer la fenetre du jeu
         self.screen = pygame.display.set_mode((800, 600))
-        pygame.display.set_caption("Pygamon - Aventure")
+        pygame.display.set_caption("Pygamony - Aventure")
         
         # charger la carte (tmx)
         tmx_data = pytmx.util_pygame.load_pygame('carte.tmx')
